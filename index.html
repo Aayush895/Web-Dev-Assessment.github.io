@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <title>Web Dev Assessment</title>
+  </head>
+  <body>
+    <!-- Header Section of Web Page -->
+    <header class="container-fluid pb-1">
+      <!-- Nav-Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-between">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <a class="navbar-brand ms-5" href="#"
+            ><span><img src="./Assets/Home Page/Group 46.svg" alt="" /></span
+          ></a>
+          <div class="header-navbar">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown me-4">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Audit Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Prices</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item dropdown me-4">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item navBtn-1 me-4">
+                <a
+                  class="nav-link active text-white px-5"
+                  aria-current="page"
+                  href="#"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item navBtn-2 me-4">
+                <a
+                  class="nav-link active text-white px-5"
+                  aria-current="page"
+                  href="#"
+                  >Request An Audit</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Container -->
+
+      <div class="container entry-page">
+        <div class="d-flex justify-content-around">
+          <div class="title" id="header-titles">
+            <h1>
+              Emerging Web3 Ventures <br />
+              Trust Our Smart Contract <br />
+              Audits & Diligent Services
+            </h1>
+            <h3>Quill Audits, Making Web3 a safer place</h3>
+            <button type="submit" class="btn-1 btn text-white px-5" id="quote-btn">
+              Request Free Quote
+            </button>
+            <button type="submit" class="btn-2 btn text-white ms-4 px-5" id="services-btn" onclick="redirectSite()">
+              Explore Services
+            </button>
+          </div>
+          <div class="animation">
+            <div class="header-animation">
+              <lottie-player
+                src="./Assets/Home Page/81943.json"
+                background="transparent"
+                speed="1"
+                style="width: 500px; height: 400px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+        <!-- results -->
+        <div class="container results d-flex justify-content-around">
+          <div class="money-lost d-flex">
+            <div class="value"><h4>$ 12.8B</h4></div>
+            <div class="amt-lost ms-2">
+              <h6>
+                Amount Lost To <br />
+                DeFi Hacks in 2021
+              </h6>
+            </div>
+          </div>
+          <div class="number-of-codes d-flex">
+            <div class="value"><h4>600K</h4></div>
+            <div class="amt-lost ms-2">
+              <h6>
+                Lines of Codes <br />
+                Secured by QuillAudits
+              </h6>
+            </div>
+          </div>
+          <div class="money-protected d-flex">
+            <div class="value"><h4>$ 14.6B</h4></div>
+            <div class="amt-lost ms-2">
+              <h6>
+                Amount Protected <br />
+                By QuillAudits
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Page -->
+    <div class="container-fluid services">
+      <!-- Client Container -->
+      <div class="container clients mt-5">
+        <div class="client-header">
+          <h6>CLIENTS</h6>
+        </div>
+        <div class="partners">
+          <div class="partner-header">
+            <h3 class="partner-title">Partners</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services Provided -->
+
+      <!-- Service-1 -->
+      <div class="container service-1 d-flex justify-content-around">
+        <div class="service-1-Animation" data-aos="fade-right" data-aos-duration="1000">
+          <lottie-player
+            src="https://drive.google.com/file/d/1MCG_YHUKUACeV-rfPpFIVcHznz4IdHoY/view?usp=sharing"
+            background="transparent"
+            speed="1"
+            style="width: 400px; height: 400px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+        <div class="service-1-details" data-aos="fade-left" data-aos-duration="1000">
+          <h6 class="service-title">SERVICE</h6>
+          <div class="service-header">
+            <h3>Smart Contract Auditing</h3>
+          </div>
+          <div class="service-info">
+            <p>
+              Our Audit Process for smart contract is based on the <br />
+              comprehensive approach we follow to investigate the code <br />
+              for security flaws and potential vulnerabilites.
+            </p>
+            <div class="list-items">
+              <ul class="tech-list text-start" style="list-style: none">
+                <li><i class="fa-brands fa-ethereum me-2"></i>Ethereum</li>
+                <li>
+                  <span class="me-1"
+                    ><img
+                      class="polygon"
+                      src="https://cryptologos.cc/logos/polygon-matic-logo.svg?v=023"
+                      style="width: 15px"
+                      alt="polygon-crypto" /></span
+                  >Polygon
+                </li>
+                <li>
+                  <span class="me-1"
+                    ><img
+                      src="./Assets/Features Page/bsc-icon.png"
+                      style="width: 15px"
+                      alt="bsc-crypto" /></span
+                  >BSC
+                </li>
+                <li>
+                  <span class="me-1"
+                    ><img
+                      src="./Assets/Features Page/solana-icon.png"
+                      style="width: 15px"
+                      alt="solana-crypto" /></span
+                  >Solana
+                </li>
+                <li><i class="fa-brands fa-ethereum me-2"></i>EOS</li>
+              </ul>
+            </div>
+            <button type="submit" class="service-btn btn px-5">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service-2 -->
+      <div class="container service-2 d-flex justify-content-around mt-5">
+        <div class="service-2-details" data-aos="fade-right" data-aos-duration="1000">
+          <h6 class="service-title">SERVICE</h6>
+          <div class="service-header">
+            <h3>Blockchain Penetration testing</h3>
+          </div>
+          <div class="service-info">
+            <p>
+              QuillAudits proven strategy to tackle vulnerabilites specific to
+              <br />
+              blockchain technology comes with a mix-blend of conventional
+              <br />
+              pentesting approach and dynamic blockchain analysis.
+            </p>
+            <button type="submit" class="service-btn btn px-5">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="service-2-Animation" data-aos="fade-left" data-aos-duration="1000">
+          <lottie-player
+            src="./Assets/Features Page/19172.json"
+            background="transparent"
+            speed="1"
+            style="width: 500px; height: 300px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+
+      <!-- Serivce-3 -->
+      <div class="container service-3 d-flex justify-content-around mt-5">
+        <div class="service-3-Animation" data-aos="fade-right" data-aos-duration="1000">
+          <lottie-player
+            src="./Assets/Features Page/92805.json"
+            background="transparent"
+            speed="1"
+            style="width: 400px; height: 400px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+        <div class="service-3-details" data-aos="fade-left" data-aos-duration="1000">
+          <h6 class="service-title">SERVICE</h6>
+          <div class="service-header">
+            <h3>Due Diligence</h3>
+          </div>
+          <div class="service-info">
+            <p>
+              QuillAudits acknowledges the significant threats involved in<br />
+              smart contracts, which can lead to many critical<br />
+              possibilites.
+            </p>
+            <div class="list-items">
+              <ul class="tech-list text-start" style="list-style: none">
+                <li>
+                  <span class="me-1"
+                    ><img
+                      class="polygon"
+                      src="./Assets/Features Page/quill-icon.png"
+                      style="width: 15px"
+                      alt="polygon-crypto" /></span
+                  >DeFi Due Diligence
+                </li>
+                <li>
+                  <span class="me-1"
+                    ><img
+                      src="./Assets/Features Page/quill-icon.png"
+                      style="width: 15px"
+                      alt="bsc-crypto" /></span
+                  >NFT Due Diligence
+                </li>
+                <li>
+                  <span class="me-1"
+                    ><img
+                      src="./Assets/Features Page/quill-icon.png"
+                      style="width: 15px"
+                      alt="solana-crypto" /></span
+                  >Rug Pull Due Diligence
+                </li>
+              </ul>
+            </div>
+            <button type="submit" class="service-btn btn px-5">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Security Provided -->
+      <div class="container security-details">
+        <h6 class="security-title text-center">THE SECURITY</h6>
+        <h3 class="security-deatils text-center">
+          How We Secure Your Web3 Project
+        </h3>
+        <img
+          class="security-detail mt-5"
+          style="width: 100%"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          src="./Assets/Features Page/security-img/Group 42280.png"
+          alt="diff-security"
+        />
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div class="container-fluid portfolio">
+      <div class="container works-header">
+        <div class="portfolio-header pt-5">
+          <h6 class="text-center">PORTFOLIO</h6>
+        </div>
+        <div class="latest-works">
+          <h3 class="text-center text-white">Latest Work</h3>
+          <div class="latest-work-btn d-flex justify-content-center">
+            <span class="badge rounded-pill me-3 py-2 px-3" style="background-color: #2D83EE; border: none;">Ethereum</span>
+            <span class="badge rounded-pill me-3 py-2 px-3">Binance SC</span>
+            <span class="badge rounded-pill me-3 py-2 px-3">NFT</span>
+            <span class="badge rounded-pill me-3 py-2 px-3">Solana</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Img Carousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-touch="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="container img-container d-flex justify-content-around mt-5 mx-5"
+            >
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="container img-container d-flex justify-content-around mt-5 mx-5"
+            >
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="container img-container d-flex justify-content-around mt-5 mx-5"
+            >
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+
+              <div class="portfolio-report">
+                <img
+                  src="./Assets/Portfolio/218 copy/218 copy.png"
+                  style="height: 20rem"
+                  width="330rem"
+                  class="d-block"
+                  alt="img-1"
+                />
+                <h5 class="text-center text-white">StackOS Audit Report</h5>
+                <div class="portfolio-btn d-flex justify-content-around">
+                  <button type="submit" class="btn px-5">View</button>
+                  <button type="submit" class="btn px-5">Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          id="prev-btn"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          id="next-btn"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="btn-container position-relative">
+        <button type="submit" class="portfolio-button btn text-center px-5">
+          Button
+        </button>
+      </div>
+    </div>
+
+    <!-- Mentions Page -->
+
+    <div class="container-fluid mentions-page">
+      <div class="container why-here d-flex justify-content-around">
+        <div class="why-header">
+          <h6 class="why-title">WHY ARE WE HERE</h6>
+          <h3>
+            What is the need of <br />
+            Smart Contract Audit?
+          </h3>
+          <button type="submit" class="expert-btn btn btn-primary">
+            Talk To an Expert
+          </button>
+        </div>
+
+        <div class="reason-stack">
+          <div class="reason-1 text-center">
+            Smart Contract Audits Build Social Authority
+          </div>
+          <div class="reason-2 text-center">
+            <p>Only 52.7% of the Exploited Web3 Projects were Audited.</p>
+          </div>
+          <div class="reason-3 text-center">
+            <p>
+              47.3% of the Web3 Hacks in the First Half of 2022 were due to
+              Smart Contracts Vulnerabilites.
+            </p>
+          </div>
+          <div class="reason-4 text-center">
+            <p>Helps in Earning Users/Investors Trust for the Product</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mentions Card -->
+      <div class="container mentions">
+        <div class="mentions-header text-center">
+          <h6>MENTIONS</h6>
+          <h3>As Featured In</h3>
+        </div>
+        <div class="row-1 mention-cards d-flex justify-content-center">
+          <div class="card card-1 mx-3">
+            <div class="card-body">
+              <img
+                src="./Assets/Mentions/Home Page/cn-alt.png"
+                alt=""
+                style="width: 18rem"
+              />
+              <p class="text-center mt-3" onclick="ctPage()">Read More</p>
+            </div>
+          </div>
+
+          <div class="card card-2 mx-3">
+            <div class="card-body">
+              <img
+                src="./Assets/Mentions/Home Page/product-hunt.png"
+                alt=""
+                style="width: 18rem"
+              />
+              <p class="text-center" onclick="productHuntPage()">Read More</p>
+            </div>
+          </div>
+
+          <div class="card card-3 mx-3">
+            <div class="card-body">
+              <img
+                src="./Assets/Mentions/Home Page/Mask.png"
+                alt=""
+                style="width: 18rem"
+              />
+              <p class="text-center" onclick="moneyControlPage()">Read More</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-2 mention-cards d-flex justify-content-center my-4">
+          <div class="card card-1 mx-3">
+            <div class="card-body">
+              <img
+                src="./Assets/Mentions/Home Page/Coincrunch_logo_640_416.png"
+                alt=""
+                style="width: 18rem"
+              />
+              <p class="text-center" onclick="crunchPage()">Read More</p>
+            </div>
+          </div>
+
+          <div class="card card-2 mx-3">
+            <div class="card-body">
+              <div
+                class="img-container d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./Assets/Mentions/Home Page/hn-logo.png"
+                  alt=""
+                  style="width: 18rem"
+                />
+              </div>
+              <p class="text-center mt-5" onclick="hackerNoonPage()">Read More</p>
+            </div>
+          </div>
+
+          <div class="card card-3 mx-3">
+            <div class="card-body">
+              <div
+                class="img-container d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./Assets/Mentions/Home Page/Invest-in-Blockchain-web-logo-copy-4.png"
+                  alt=""
+                  style="width: 18rem"
+                />
+              </div>
+              <p class="text-center mt-3" onclick="investInBCPage()">Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Section -->
+
+      <div class="container testimonials">
+        <div class="testimonials-header">
+          <h6 class="testimonial-title">TESTIMONIALS</h6>
+          <div class="client-comment d-flex justify-content-between">
+            <h3 class="client-header">What our Clients are saying</h3>
+            <button type="submit" class="btn btn-primary px-5">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div
+          class="container testimonial-container d-flex justify-content-around"
+        >
+          <div class="testimonial-card text-center">
+            <div class="img-container">
+              <img
+                src="data:image/png;base64,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"
+                alt="stackos-img"
+              />
+            </div>
+            <p>
+              Very Professional and timed delivery. Also very <br />
+              prompt in responses and queries.
+            </p>
+            <h5>
+              Vishnu Korde <span><h6>CEO, StackOS</h6></span>
+            </h5>
+          </div>
+
+          <div class="testimonial-card text-center">
+            <div class="img-container">
+              <img
+                src="data:image/png;base64,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"
+                alt="stackos-img"
+              />
+            </div>
+            <p>
+              Very Professional and timed delivery. Also very <br />
+              prompt in responses and queries.
+            </p>
+            <h5>
+              Vishnu Korde <span><h6>CEO, StackOS</h6></span>
+            </h5>
+          </div>
+
+          <div class="testimonial-card text-center">
+            <div class="img-container">
+              <img
+                src="data:image/png;base64,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"
+                alt="stackos-img"
+              />
+            </div>
+            <p>
+              Very Professional and timed delivery. Also very <br />
+              prompt in responses and queries.
+            </p>
+            <h5>
+              Vishnu Korde <span><h6>CEO, StackOS</h6></span>
+            </h5>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+
+        <div class="container FAQ-container">
+          <div class="faq-header">
+            <h6>FAQ</h6>
+          </div>
+
+          <div class="faq-sec d-flex justify-content-between">
+            <div class="faq-summary">
+              <h3>
+                Frequently Asked <br />
+                Questions
+              </h3>
+              <p>
+                Visit our help center to clear out any second thoughts that
+                <br />
+                you may have regarding our services.
+              </p>
+              <button type="submit" class="btn btn-primary px-5">
+                Contact Us
+              </button>
+            </div>
+
+            <div class="faq-accordion">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      What is smart contract security?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Smart Contract Security is a set of best practices to
+                      identify bugs & vulnerabilites in the code that can lead
+                      to security breaches. These loopholes have lead to huge
+                      financial losses recently.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      Are smart contracts vulnerable
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum totam nobis, iure odit cum assumenda non ipsum
+                      reiciendis inventore animi praesentium quaerat placeat et
+                      nisi temporibus magnam illo dignissimos laudantium
+                      numquam. Fugit voluptates maxime, fuga ullam similique id
+                      reiciendis iste rem odio placeat, officia earum veniam
+                      accusantium sapiente quo at.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      What is a smart contract audit?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Provident, culpa quod? Eos delectus omnis molestiae sunt,
+                      odio minus excepturi natus atque officia porro architecto
+                      nemo laboriosam quibusdam labore quae dolorem at eveniet.
+                      Consequatur vel esse porro doloribus velit placeat cumque
+                      quaerat sed nihil ea obcaecati distinctio nulla
+                      dignissimos dolore officiis recusandae necessitatibus
+                      fugiat, ducimus perspiciatis. Labore hic maxime dolore
+                      delectus.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      Why do smart contracts fail?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-collapseFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Provident, culpa quod? Eos delectus omnis molestiae sunt,
+                      odio minus excepturi natus atque officia porro architecto
+                      nemo laboriosam quibusdam labore quae dolorem at eveniet.
+                      Consequatur vel esse porro doloribus velit placeat cumque
+                      quaerat sed nihil ea obcaecati distinctio nulla
+                      dignissimos dolore officiis recusandae necessitatibus
+                      fugiat, ducimus perspiciatis. Labore hic maxime dolore
+                      delectus.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Section -->
+
+      <div class="container blog-container">
+        <div class="blog-header">
+          <h6>OUR BLOG</h6>
+          <div class="blog-subHeader d-flex justify-content-between">
+            <h3 class="subheader-title">Catch Up on News</h3>
+            <button type="submit" class="btn btn-primary subheader-btn px-5">Read More</button>
+          </div>
+        </div>
+
+        <div class="container blog-cards d-flex justify-content-between">
+
+          <div class="card border-0" style="width: 20rem;">
+            <img src="./Assets/Mentions & Testimonials/Mask/Mask.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web3 Security: Classification & Analysis of Web3 Hacks</h5>
+              <h6 class="mt-3">15 Mar, 2023</h6>
+              <p class="card-text mt-3">At every point in time, the internet keeps changing dimensions to solve the shortcoming of previous version</p>
+            </div>
+          </div>
+
+          <div class="card border-0" style="width: 20rem;">
+            <img src="./Assets/Mentions & Testimonials/Mask/Mask.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Web3 Security: Classification & Analysis of Web3 Hacks</h5>
+              <h6 class="mt-3">15 Mar, 2023</h6>
+              <p class="card-text mt-3">At every point in time, the internet keeps changing dimensions to solve the shortcoming of previous version</p>
+            </div>
+          </div>
+
+          <div class="card border-0" style="width: 20rem;">
+            <img src="./Assets/Mentions & Testimonials/Mask/Mask.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web3 Security: Classification & Analysis of Web3 Hacks</h5>
+              <h6 class="mt-3">15 Mar, 2023</h6>
+              <p class="card-text mt-3">At every point in time, the internet keeps changing dimensions to solve the shortcoming of previous version</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter Section -->
+
+    <div class="container-fluid newsletter-section">
+      <div class="container newsletter-header d-flex justify-content-around">
+
+        <div class="newsletter-subscription">
+          <div class="newsletter-title">
+            <img src="./Assets/Newsletter-section/Home Page/Group 41717.svg" alt="newsletter-img">
+          </div>
+          
+          <p class="newsletter-intro mt-5">DeFi & NFT Hacks, CTFs, and Blockchain Security Insights Straight to your Inbox</p>
+          <p class="newsletter-sub mt-4">Explore our weekly newsletter: HashingBits. Stay Updated on everything we're publishing. Stand a step
+            ahead.
+          </p>
+  
+          <form action="" id="email-input">
+            <div class="mb-3 email-sec">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@gmail.com">
+              <div id="emailHelp" class="form-text text-white mt-3">
+                <span><img src="./Assets/Newsletter-section/icons8-ok-30.png" style="width: 20px;" alt=""></span> Your email has been successfully registered, headlines will be sent to you soon.
+              </div>
+            </div>
+          </form>
+        </div>
+       
+        <div class="inbox-background">
+          <img src="./Assets/Newsletter-section/Home Page/Union 4.svg" alt="inbox-img">
+        </div>
+      </div>
+    </div>
+
+    <!-- Apply Section -->
+
+    <div class="container-fluid apply-section d-flex align-content-center justify-content-center">
+      <div class="container apply-advertise d-flex justify-content-center">
+        <div class="advertise-statement">
+          <h3 class="advertise-header">
+            Join Hands With us to secure Web3 Together
+          </h3>
+          <p class="advertisement">
+            Help us in our journey to secure Web3 by joining our team of talented individuals spread across the globe.
+          </p>
+
+          <button type="submit" class="btn px-5">APPLY NOW!</button>
+        </div>
+        <img src="./Assets/Advertise/advertise.svg" alt="advertisement-guy-img">
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="container-fluid footer">
+
+      <div class="container footer-info d-flex justify-content-around">
+
+        <div class="parent-company">
+          <div class="about-parent">
+            <h6 class="text-white">Parent Company</h6>
+          <div class="parent-company mt-3">
+            <img src="./Assets/Footer/Home Page/Final Vertical White 2.svg" alt="parent-company-img">
+          </div>
+          <p class="parent-company-info mt-3">
+            Quillhash delivers enterprise <br> grade blockchain technology <br> to leading companies <br> worldwide.
+          </p>
+          </div>
+          <div class="language-supported">
+            <div class="eng-flag mb-2">
+              <img src="./Assets/Footer/Home Page/istockphoto-486407806-612x612.png" alt="london-img"> 
+              <span class="text-dark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ENG</span>
+            </div>
+            <img src="./Assets/Footer/Home Page/Flag-China.png" class="mx-2" alt="">
+            <img src="./Assets/Footer/Home Page/index.png" alt="">
+          </div>
+        </div>
+
+        <div class="explore-sec ">
+          <h6 class="">Explore</h6>
+          <p>Careers</p>
+          <p>Courses</p>
+          <p>Blockchain Security CTF</p>
+          <p>QuillAudits Partner Program</p>
+          <p>Referral Program</p>
+        </div>
+
+        <div class="services-sec ">
+          <h6>Services</h6>
+          <p>Smart Contract Auditing</p>
+          <p>Blockchain pen testing</p>
+          <p>Due Diligence</p>
+        </div>
+
+        <div class="contact-sec ">
+          <h6>Contact Us</h6>
+          <p class="address">
+            LG 006, DLF Grand Mall, Mehrauli <br> Gurgaon Road, Near Sikanderpur DLF <br> Phase1, Sector 28, Gurugram, <br> Haryana - 122002
+          </p>
+          <p class="email-add">
+            <span><i class="fa-regular fa-envelope"></i></span> <u>contact@quillaudits.com</u>
+          </p>
+        </div>
+      </div>
+
+      <h6 class="text-center text-white">Join Our Journey</h6>
+      <div class="socials d-flex justify-content-center mt-2">
+        <img src="./Assets/Footer/Home Page/Group 5.svg" class="mx-2" alt="Facebook">
+        <img src="./Assets/Footer/Home Page/Group 10.svg" class="mx-2" alt="Twitter">
+        <img src="./Assets/Footer/Home Page/Group 28.svg" class="mx-2" alt="LinkedIn">
+        <img src="./Assets/Footer/Home Page/Group 13.svg"  class="mx-2" alt="Instagram">
+        <img src="./Assets/Footer/Home Page/Group 41321.png" class="mx-2" alt="Telegram">
+        <img src="./Assets/Footer/Home Page/Group 41763.png" class="mx-2" alt="Reddit">
+        <img src="./Assets/Footer/Home Page/Group 41764.png" class="mx-2" alt="Medium">
+        <img src="./Assets/Footer/Home Page/Group 41765.svg" class="mx-2" alt="Discord">
+        <img src="./Assets/Footer/Home Page/Group 18.svg" class="mx-2" alt="YouTube">
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

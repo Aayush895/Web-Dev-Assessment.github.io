@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Raleway&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background: #15306f;
+    color: white;
+}
+
+.header-navbar {
+    color: white;
+}
+
+.navBtn-1 {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    border-radius: 10px;
+}
+
+.navBtn-2 {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    border-radius: 10px;
+}
+
+.title h1{
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+}
+
+.title h3 {
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+}
+
+.entry-page {
+    margin-top: 10rem;
+}
+
+.btn-1 {
+    border-color: #7184FD;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn-1:hover {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+}
+
+.btn-2 {
+    border-color: #7184FD;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn-2:hover {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+}
+
+.title,h3,button {
+    margin-top: 2rem;
+}
+
+.results {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.amt-lost h6{
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+}
+
+.value h4{
+    color: #2D83EE;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Features Page (Services & Security) */
+
+.client-header h6 {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+ .clients {
+    margin-bottom: 5rem;
+ }
+
+ .service-title {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+ }
+
+ .service-header {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+ }
+
+ .service-info {
+    line-height: 2;
+ }
+
+ .service-btn {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    color: white;
+ }
+
+.security-details {
+    margin-top: 5rem;
+}
+
+.security-title {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    background: #15306f;
+}
+
+.works-header {
+    margin-top: 5rem;
+}
+
+.portfolio-header {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.latest-works h3 {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.latest-work-btn  span{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.img-container {
+    margin-top: 6rem !important;
+}
+
+.portfolio-btn button{
+    color: white;
+    border: 1px solid white;
+}
+
+.portfolio-btn button:hover{
+    background-color: #2D83EE;
+    color: white;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-container button {
+    color: white;
+    border: 1px solid white;
+    margin-top: 3rem !important;
+    margin-bottom: 5rem;
+}
+
+.btn-container button:hover{
+    background-color: #2D83EE;
+    color: white;
+}
+
+/* Mentions & Testimonials */
+
+.why-here {
+    margin-top: 5rem;
+}
+
+.why-title {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.why-header button {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    color: white;
+}
+
+.reason-stack {
+    position: relative;
+    bottom: 3rem;
+    left: 10rem;
+    z-index: 1;
+}
+
+.reason-1 {
+    font-size: 14px;
+    color: #2D83EE;
+    border: 1px solid #2D83EE;
+    opacity: 0.4;
+    width: 55%;
+    margin-left: 15rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+.reason-2 {
+    font-size: 16px;
+    color: #2D83EE;
+    border: 1px solid #2D83EE;
+    opacity: 0.6;
+    width: 70%;
+    margin-left: 3rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 1rem;
+    z-index: -1;
+}
+
+.reason-3 {
+    font-size: 22px;
+    color: white;
+    border: 1px solid #2D83EE;
+    opacity: 1;
+    width: 70%;
+    margin-left: 0rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    background-color: #4A4BEE;
+    z-index: 0 ;
+}
+
+.reason-4 {
+    font-size: 16px;
+    color: #2D83EE;
+    border: 1px solid #2D83EE;
+    opacity: 0.6;
+    width: 70%;
+    margin-left: 3rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: -1;
+}
+
+.mentions {
+    margin-top: 3rem;
+}
+
+.mentions-header h6 {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.mention-cards {
+    margin-top: 3rem;
+}
+
+.mention-cards .card {
+    border: 1px solid #2D83EE;
+    box-shadow: 5px 5px 15px #00000029;
+    border-radius: 15px;
+    font: normal normal 600 22px Jost;
+    color: #2D83EE;
+    transition: transform 0.5s ;
+}
+
+.mention-cards .card:hover {
+    transform: scale(1.1);
+}
+
+.mention-cards .card p {
+    cursor: pointer;
+}
+
+.testimonials {
+    margin-top: 10rem;
+}
+
+.testimonial-title {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.client-header {
+    font-family: 'Jost', sans-serif;
+    color: #391400;
+    font-size: 40px;
+}
+
+.client-comment button {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    color: white;
+    font-size: 16px;
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.testimonial-card p, .accordion-body, .faq-summary p{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: #391400;
+    line-height: 2;
+}
+
+.testimonial-card h5 {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    color: #391400;
+}
+
+.testimonial-card h6 {
+    font-family: 'Jost', sans-serif;
+    font-family: 16px;
+}
+
+.FAQ-container {
+    margin-top: 5rem;
+}
+
+.faq-header {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.faq-summary h3{
+    font-family: 'Jost', sans-serif;
+    color: #391400;
+    font-size: 40px;
+}
+
+.faq-summary button {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    color: white;
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.faq-accordion {
+    width: 40%;
+    border: 1px solid #2D83EE;
+    border-radius: 10px;
+}
+
+.blog-container {
+    margin-top: 5rem;
+}
+
+.blog-header h6 {
+    color: #2D83EE;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.subheader-title {
+    font-family: 'Jost', sans-serif;
+    color: #391400;
+    font-size: 40px;
+}
+
+.subheader-btn {
+    background: rgb(113,132,253);
+    background: linear-gradient(90deg, rgba(113,132,253,1) 0%, rgba(63,122,240,1) 50%, rgba(82,126,245,1) 100%);
+    color: white;
+    font-size: 16px;
+    box-shadow: 5px 8px 10px #00000029;
+}
+
+.blog-container {
+    margin-bottom: 5rem;
+}
+
+.blog-cards {
+    margin-top: 5rem;
+}
+
+.blog-cards .card .card-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    color: #2D83EE;
+    line-height: 2;
+}
+
+.blog-cards .card .card-body h6 {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #391400;
+}
+
+.blog-cards .card .card-body p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #391400;
+}
+
+/* NewsLetter Section */
+
+.newsletter-section {
+    padding: 3rem;
+    background: transparent url('../Assets/Newsletter-section/Home\ Page/Union\ 3.svg') 0% 0% no-repeat padding-box;
+    background-size: 30rem;
+    background-position: 57rem -3rem;
+    background-color: #15306f;
+    color: white;
+}
+
+.email-sec input {
+    background-color: #0000004D;
+    border: none;
+    width: 65%;
+    margin-top: 2rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+#emailHelp {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+.newsletter-sub {
+    width: 95%;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+}
+
+/* Advertisement Section */
+
+.apply-advertise {
+    border-radius: 30px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #2D83EE;
+    width: 80%;
+    padding: 0 3rem 5rem 3rem;
+}
+
+.advertise-header {
+    width: 65%;
+    line-height: 2;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.advertisement {
+    width: 100%;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.advertise-statement button {
+    background-color: white;
+    color: black;
+    margin-top: 10rem;
+}
+
+.advertise-statement button:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #28293E;
+    color: white;
+    padding: 3rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.eng-flag {
+    background-color: white;
+    padding: 1rem;
+    width: 10rem;
+}
+
+
+
+
