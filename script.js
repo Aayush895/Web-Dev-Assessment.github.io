@@ -22,6 +22,36 @@ const redirectSite = () => {
   location.href = "https://audits.quillhash.com/smart-contract-audit";
 };
 
+// Number Counter Animation
+
+let counters = document.querySelectorAll(".counter");
+counters.forEach((counter) => {
+  const updateCounter = () => {
+    const target = +counter.getAttribute("data-target");
+    let c = +counter.innerText;
+    if (c < target) {
+      counter.innerText = `${c + 1}`;
+      setTimeout(updateCounter, 100);
+    }
+  };
+
+  updateCounter();
+});
+
+let counter_1 = document.querySelectorAll(".counter-1");
+counter_1.forEach((counter) => {
+  const updateCounter = () => {
+    const target = +counter.getAttribute("data-target");
+    let c = +counter.innerText;
+    if (c < target) {
+      counter.innerText = `${c + 3}`;
+      setTimeout(updateCounter, 1);
+    }
+  };
+
+  updateCounter();
+});
+
 // Highlighting the crypto badges when 'prev' or 'next' of the image carousel is clicked
 
 const prev_btn = document.getElementById("prev-btn");
